@@ -1,0 +1,74 @@
+.App {
+  text-align: center;
+  padding: 20px;
+}
+
+.keyword-input,
+.date-text,
+.submit-btn {
+  margin: 10px;
+}
+
+.result-container {
+  margin-top: 20px;
+}
+
+.speedometer-container {
+  margin-top: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.final-text {
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+
+/* You can add more styles as needed */
+/* HomePage.css */
+/* ... (your existing styles) */
+
+.form-heading {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.keyword-input {
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 16px;
+  width: 100%;
+  max-width: 300px;
+}
+
+/* You can add more styles as needed */
+/* HomePage.css */
+/* ... (your existing styles) */
+
+.submit-btn {
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.submit-btn:hover {
+  background-color: #0056b3;
+}
+/* HomePage.css */
+/* ... (your existing styles) */
+
+.final-text {
+  font-size: 25px;
+  font-weight: bold;
+  margin-bottom: 10px;
+  color: #333;
+}
+
+/* You can adjust the font size, color, and other styles as needed */
