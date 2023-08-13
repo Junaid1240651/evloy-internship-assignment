@@ -1,5 +1,4 @@
 import React, { useState } from "react";
-import Speedometer from "react-d3-speedometer";
 import "./HomePage.css";
 function HomePage() {
   const [keyword, setKeyword] = useState("");
@@ -34,7 +33,6 @@ function HomePage() {
       setShowData(true);
     }
   };
-  const speedometerValue = Math.floor(averageSearchVolume / 100);
 
   return (
     <form className="App" onSubmit={onSubmitKeywordForm}>
@@ -76,14 +74,6 @@ function HomePage() {
             Average daily search keyword volume for "{keyword}" since {endDate}{" "}
             = {averageSearchVolume} search/day
           </p>
-          <div className="speedometer-container">
-            <Speedometer
-              value={speedometerValue}
-              segments={5}
-              startColor="red"
-              endColor="darkgreen"
-            />
-          </div>
         </div>
       )}
     </form>
